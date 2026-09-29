@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Monika ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Great+Vibes&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="particles"></div>
+
+  <main>
+    <section class="screen intro active">
+      <div class="glow"></div>
+      <div class="intro-heart">♡</div>
+      <p class="eyebrow">A little surprise for you</p>
+      <h1>Happy Birthday<br><span>Monika</span> <b>♥</b></h1>
+      <p class="sub">Some memories, a little love, and a whole lot of wishes.</p>
+      <button id="startBtn">Open your surprise <span>→</span></button>
+      <p class="tap">Tap to begin</p>
+    </section>
+
+    <section class="screen countdown">
+      <div class="count-number" id="countNumber">3</div>
+      <p>Something beautiful is coming...</p>
+    </section>
+
+    <section class="screen reveal">
+      <div class="ribbon">FOR YOU</div>
+      <h2>Happy Birthday</h2>
+      <h1>Monika <span>♥</span></h1>
+      <p>Today is all about celebrating you.</p>
+      <div class="mini-hearts">♥　♡　♥</div>
+    </section>
+
+    <section class="screen memories">
+      <p class="eyebrow">A few favourite moments</p>
+      <h2>Beautiful memories</h2>
+      <div class="gallery">
+        <figure class="card c1"><img src="images/photo1.jpg" alt="Monika memory 1"></figure>
+        <figure class="card c2"><img src="images/photo2.jpg" alt="Monika memory 2"></figure>
+        <figure class="card c3"><img src="images/photo3.jpg" alt="Monika memory 3"></figure>
+        <figure class="card c4"><img src="images/photo4.jpg" alt="Monika memory 4"></figure>
+        <figure class="card c5"><img src="images/photo5.jpg" alt="Monika memory 5"></figure>
+        <figure class="card c6"><img src="images/photo6.jpg" alt="Monika memory 6"></figure>
+      </div>
+    </section>
+
+    <section class="screen letter">
+      <div class="paper">
+        <div class="paper-heart">♥</div>
+        <p class="eyebrow">A birthday note</p>
+        <h2>For Monika</h2>
+        <p>
+          May this new year of your life bring you countless reasons to smile,
+          peaceful days, beautiful surprises and people who make you feel truly special.
+        </p>
+        <p>
+          Keep being the wonderful person you are. You deserve a birthday
+          as lovely and memorable as you.
+        </p>
+        <div class="signature">With lots of love ♡</div>
+      </div>
+    </section>
+
+    <section class="screen final">
+      <div class="final-content">
+        <p class="eyebrow">One last surprise</p>
+        <h2>Made with love</h2>
+        <div class="heart-collage">
+          <img src="images/photo1.jpg" alt="">
+          <img src="images/photo2.jpg" alt="">
+          <img src="images/photo3.jpg" alt="">
+          <img src="images/photo4.jpg" alt="">
+          <img src="images/photo5.jpg" alt="">
+          <img src="images/photo6.jpg" alt="">
+          <img src="images/photo7.jpg" alt="">
+          <img src="images/photo8.jpg" alt="">
+        </div>
+        <h1>Happy Birthday, Monika <span>♥</span></h1>
+        <p class="forever">May your smile stay forever.</p>
+      </div>
+    </section>
+  </main>
+
+  <button class="music-btn" id="musicBtn" aria-label="Toggle music">♫</button>
+  <audio id="bgMusic" loop>
+    <!-- Add your own MP3 as music.mp3 in this folder if you want background music. -->
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
